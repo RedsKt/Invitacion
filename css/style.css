@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 
 html, body {
     font-family: "Dancing Script", cursive !important;
@@ -19,11 +19,12 @@ html, body {
     font-optical-sizing: auto;
     font-weight: 900; /* Puedes cambiar esto según lo que necesites */
     font-style: normal;
+    color: #9370DB !important;
 }
 
 
 .navbar {
-    background-color:#93cac4;
+    background-color: #5F9EA0;
 }
 
 
@@ -32,6 +33,7 @@ html, body {
     font-optical-sizing: auto;
     font-weight: 900; /* Puedes cambiar esto según lo que necesites */
     font-style: normal;
+    color: #FFF;
 }
 
 #header {
@@ -44,7 +46,7 @@ html, body {
 
 
 .leyenda {
-    background-color: #93cac4 !important;
+    background-color: #5F9EA0 !important;
 }
 
 
@@ -57,6 +59,10 @@ html, body {
 }
 
 
+.tContent {
+    color: #FFF;
+}
+
 #maps {
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
@@ -67,8 +73,11 @@ html, body {
 
 
 .map-icon {
-    font-size:5rem;
+    color: #9370DB;
+    font-size: 5rem;
 }
+
+
 
 
 #itinerario {
@@ -76,8 +85,8 @@ html, body {
     font-optical-sizing: auto;
     font-weight: 900; /* Puedes cambiar esto según lo que necesites */
     font-style: normal;
-    color: #357566 !important;
-    font-size:1.25rem;
+    color: #9370DB !important;
+    font-size: 1.25rem;
 }
 
 
@@ -131,6 +140,7 @@ html, body {
     padding: 20px;
     width: 100%;
     overflow-x: hidden; /* Evita el desplazamiento horizontal */
+    color: #9370DB !important;
 }
 
 .mesa-container {
@@ -178,9 +188,10 @@ html, body {
 #cierre {
     margin: 40px 0; /* Espaciado superior e inferior */
     text-align: center; /* Centra el texto */
-    background-color: #93cac4; /* Color de fondo beige */
+    background-color: #5F9EA0; /* Color de fondo beige */
     padding: 20px; /* Espaciado interno */
     border-radius: 8px; /* Bordes redondeados */
+    color: white;
 }
 
     #cierre h2 {
@@ -191,3 +202,8 @@ html, body {
     #cierre p {
         margin: 5px 0; /* Espaciado entre párrafos */
     }
+
+
+#confirmacion {
+    color: #9370DB !important;
+}
