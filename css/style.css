@@ -170,7 +170,7 @@ html, body {
 /* Estilos específicos para pantallas pequeñas */
 @media (max-width: 480px) {
     .mesa-container {
-        justify-content: space-between; /* Asegura que se mantengan en una línea sin desbordar */
+        justify-content: space-around; /* Asegura que se mantengan en una línea sin desbordar */
     }
 
     .mesa-image {
